@@ -1,0 +1,38 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    background-image: url(assets/star-wars-wallpaper.jpg);
+    background-size: contain;
+    
+}
+
+header{
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    margin:0 auto;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+    text-align: justify;
+}
+
+a:hover:not(.active){
+    background-color:gainsboro ;
+}
+.active{
+    background-color:rgb(55, 109, 225);
+    color: black;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    padding: 15px;
+    bottom:0;
+    width: 100%;
+    margin: 0 auto;
+}

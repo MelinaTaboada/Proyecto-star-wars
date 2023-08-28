@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars</title>
+    <link rel="stylesheet" href="/style.css"> 
+    <link rel="stylesheet" href="styles/contacto.css">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+</head>
+
+
+<body>
+<header>
+    <img src="assets/logostarwars.png" alt="logo Star Wars">
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="peliculas.html">Peliculas</a>
+        <a href="series.html">Series</a>
+        <a class="active" href="contacto.html">Contacto</a>
+    </nav>
+</header> 
+
+<div class="container">
+<form>
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="nombre" id="nombre" placeholder="Escribe aqui tu nombre" required minlength="4">
+    <br>
+    <label for="Apellido">Apellido:</label>
+    <input type="text" name="apellido" id="apellido" placeholder="Escribe aqui tu apellido" required minlength="4">
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" placeholder="Escribe aqui tu email" required>
+    <br>
+    <label for="pais">Selecciona tu país de origen:</label>
+    <select name="pais" id="pais">
+        <optgroup label="America">
+            <option value="Argentina">Argentina</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Chile">Chile</option>
+        </optgroup>
+        <optgroup label="Europa">
+            <option value="Francia">Francia</option>
+            <option value="Italia">Italia</option>
+            <option value="España">España</option>
+        </optgroup>
+    </select>
+    <br>
+    <br>
+    <label for="personajes">Cuál es tu personaje favorito?</label>
+    <br>
+    <input type="radio" name="personaje" value="Skywalker">Luke Skywalker
+    <input type="radio" name="personaje" value="Yoda">Yoda
+    <input type="radio" name="personaje" value="Leia">Leia Organa
+    <input type="radio" name="personaje" value="Vader">Darth Vader
+    <input type="radio" name="personaje" value="Kenobi">Obi-Wan Kenobi
+    <input type="radio" name="personaje" value="HanSolo">Han Solo
+    <br>
+    <br>
+    <label for="comentario">Comentario</label>
+    <textarea type="text" name="comentario" id="comentario" placeholder="Escribe aqui tu comentario" rows="10" cols="50"></textarea>
+    <br>
+    <input type="submit" value="Enviar">
+</form>
+</div>
+
+
+<footer>
+    <p>Derechos reservados &copy; 2023</p>
+</footer>
+</body>
+
+
+</html>
